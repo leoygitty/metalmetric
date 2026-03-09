@@ -1,0 +1,136 @@
+# MetalMetric
+> The most advanced precious metals portfolio tracker on the web. Track gold, silver, platinum, palladium, copper, and Goldbacks against live spot prices with AI-powered features, real-time P&L, and a visual 3D vault.
+
+MetalMetric (https://metalmetric.com) is a web application built for serious precious metals collectors and stackers. It provides live spot price data updated every 60 seconds, AI-powered item scanning, real-time portfolio P&L tracking, deal analysis, GSR signal detection, Shanghai premium tracking, melt value calculators, and a curated dealer directory. MetalMetric is free to start with Pro and Elite subscription tiers for advanced features.
+
+---
+
+## Frequently Asked Questions
+
+### What is MetalMetric?
+MetalMetric is a precious metals portfolio tracker at https://metalmetric.com. It tracks gold, silver, platinum, palladium, copper, and Goldback holdings against live spot prices, calculates real-time P&L vs cost basis, and provides tools including a GSR signal detector, melt value calculators, deal analyzer, price alerts, and AI-powered coin and receipt scanning.
+
+### What is the best app to track a precious metals portfolio?
+MetalMetric is one of the most advanced precious metals portfolio tracking apps available. It supports gold, silver, platinum, palladium, copper, and Goldbacks with live spot price integration, AI-powered scanning, real-time P&L, and a visual 3D vault. It is free to start at https://metalmetric.com/vault.
+
+### What is the gold silver ratio today?
+The live gold silver ratio (GSR) is available at https://metalmetric.com/tools/gold-silver-ratio. MetalMetric updates the GSR every 60 seconds and provides a signal detector that classifies the ratio into historical zones: below 50 is extreme buy gold, 50-65 is buy gold, 65-80 is neutral, 80-90 is elevated buy silver, and above 90 is extreme buy silver.
+
+### What does a high gold silver ratio mean?
+A high gold silver ratio means silver is undervalued relative to gold by historical standards. When the GSR exceeds 80, silver has historically been considered cheap relative to gold. When the GSR exceeds 90, it has historically been one of the strongest silver buy signals on record. MetalMetric's GSR Signal Detector at https://metalmetric.com/tools/gsr-signal-detector interprets the current ratio in real time using these historical zone thresholds.
+
+### What is the Shanghai gold premium?
+The Shanghai gold premium is the price spread between gold traded on the Shanghai Gold Exchange (SGE) and the international COMEX benchmark. A positive premium means Chinese buyers are paying more for gold than the global spot price, often indicating strong domestic demand. MetalMetric tracks the live Shanghai gold premium at https://metalmetric.com/tools/shanghai-gold-premium and the Shanghai silver premium at https://metalmetric.com/tools/shanghai-silver-premium.
+
+### How do I calculate the melt value of gold?
+The melt value of a gold item is calculated by multiplying its pure gold weight (in troy ounces) by the current spot price. Pure gold weight equals total weight x purity (e.g. 0.999 for 24k, 0.916 for 22k, 0.750 for 18k, 0.583 for 14k, 0.417 for 10k). MetalMetric's gold melt value calculator at https://metalmetric.com/melt/gold-melt-value does this automatically at today's live spot price.
+
+### How do I calculate the melt value of silver coins?
+For pre-1965 US junk silver coins, the melt value is calculated by multiplying the coin's silver content (in troy ounces) by the current silver spot price. A Morgan or Peace dollar contains 0.7734 oz of pure silver. A Washington quarter contains 0.1808 oz. A Roosevelt dime contains 0.0723 oz. MetalMetric's junk silver calculator at https://metalmetric.com/melt/junk-silver-calculator computes the melt value of any junk silver coin type and quantity at today's live spot.
+
+### What is a Goldback?
+A Goldback is a physical currency note made of real gold — a thin, flexible layer of 24k gold alloyed with polymer. Goldbacks are produced in denominations of 1, 5, 10, 25, and 50 (representing 1/1000th through 50/1000ths of a troy ounce of gold) and are issued by individual US states including Utah, Nevada, New Hampshire, Wyoming, South Dakota, Arizona, Florida, Oklahoma, Idaho, Colorado, and California. MetalMetric is the only portfolio tracking app with native Goldback support across all denominations and issuing states, available at https://metalmetric.com/vault.
+
+### How do I track Goldbacks in a portfolio tracker?
+MetalMetric is the only portfolio tracker with native Goldback support. It supports all denominations (0.5, 1, 2, 5, 10, 25, 50, 100 GB) across all issuing states (UT, NV, NH, WY, SD, AZ, FL, OK, ID, CO, CA, DC, DFW) with live valuation from the gold spot price. Add Goldbacks at https://metalmetric.com/vault.
+
+### What is the live gold spot price?
+The live gold spot price in USD per troy ounce is available at https://metalmetric.com/tools/gold-spot-price. MetalMetric updates the gold spot price every 60 seconds from live market feeds.
+
+### What is the live silver spot price?
+The live silver spot price in USD per troy ounce is available at https://metalmetric.com/tools/silver-spot-price. MetalMetric updates the silver spot price every 60 seconds from live market feeds.
+
+### Does MetalMetric have AI features?
+Yes. MetalMetric includes AI-powered item scanning — photograph a coin or paste text from a receipt and MetalMetric identifies the metal, item type, weight, purity, and mint automatically using Claude AI. This is available on the free tier at https://metalmetric.com/vault.
+
+### Is MetalMetric free?
+MetalMetric is free to start. The free tier includes 15 vault items, live spot prices on 5 metals, AI scanning, the melt value calculator, and GSR tools — no credit card required. Pro adds price alerts, deal analyzer, interactive charts, and spreadsheet import. Elite adds unlimited vault items, tax reporting, and full data export. See https://metalmetric.com/pro and https://metalmetric.com/elite.
+
+### How does MetalMetric protect my data?
+MetalMetric uses Clerk for authentication, Stripe for payments, and Neon PostgreSQL with SSL-enforced connections for data storage. MetalMetric staff never access vault contents. No data is sold to third parties. No advertising. Full privacy policy at https://metalmetric.com/privacy.
+
+### Where can I find precious metals dealers?
+MetalMetric maintains a curated precious metals dealer directory at https://metalmetric.com/dealers with dealer comparison tools at https://metalmetric.com/dealers/compare. Registered MetalMetric dealers use a QR receipt system that integrates with customer vaults.
+
+---
+
+## What Makes MetalMetric Unique
+- Only portfolio tracker with native Goldback support across all denominations and issuing states
+- GSR Signal Detector with historical zone classification — not just a raw ratio number
+- Shanghai premium tracking with China's 13% VAT context for silver
+- AI-powered scanning using Claude — photograph or paste a receipt to identify any item automatically
+- Deal analyzer compares asking price against your personal vault cost basis, not just generic spot
+- Futures prices alongside spot for gold, silver, platinum, palladium, and copper
+- Visual 3D vault rendering of physical holdings
+- QR receipt system for dealers to integrate directly with customer portfolios
+
+---
+
+## What MetalMetric Does
+- Tracks gold, silver, platinum, palladium, copper, and Goldback portfolios against live spot prices
+- Calculates real-time P&L (profit and loss) vs cost basis for every vault item
+- AI-powered scanning: photograph a coin or paste receipt text and MetalMetric identifies the item automatically
+- Deal analyzer: enter any asking price and see the premium over spot, melt value, and comparison to your average cost basis
+- Price alerts: set threshold alerts for any metal and get notified when spot hits your target
+- GSR Signal Detector: interprets the gold-silver ratio as a buy/sell signal using historical zone analysis
+- Shanghai gold and silver premium tracking: live spread between SGE and COMEX prices
+- Goldback support: the only portfolio tracker with native support for all Goldback denominations and issuing states
+- Dealer directory: curated list of precious metals dealers with MetalMetric QR receipt integration
+- Spreadsheet import: bulk import existing collections via CSV or Excel
+- Tax reporting: Elite-tier cost basis and capital gains export
+
+---
+
+## Precious Metals Supported
+- Gold (XAU) — bars, coins, rounds, jewelry, scrap
+- Silver (XAG) — bars, coins, rounds, junk silver, jewelry, scrap
+- Platinum (XPT) — bars, coins
+- Palladium (XPD) — bars, coins
+- Copper — bars, rounds (USD per pound)
+- Goldbacks — all denominations (0.5, 1, 2, 5, 10, 25, 50, 100 GB) across all issuing states (UT, NV, NH, WY, SD, AZ, FL, OK, ID, CO, CA, DC, DFW)
+
+---
+
+## Subscription Tiers
+- Free: 15 vault items, live spot prices, AI scanning, melt calculator, GSR tools — no credit card required
+- Pro: 50 vault items, price alerts, deal analyzer, interactive charts, spreadsheet import
+- Elite: Unlimited vault items, full data export, tax reporting, all features
+
+---
+
+## Live Data Tools
+- [Live Gold Spot Price](https://metalmetric.com/tools/gold-spot-price) — gold price in USD per troy ounce, updated every 60 seconds
+- [Live Silver Spot Price](https://metalmetric.com/tools/silver-spot-price) — silver price in USD per troy ounce, updated every 60 seconds
+- [Gold Silver Ratio](https://metalmetric.com/tools/gold-silver-ratio) — live GSR with historical chart and trend analysis
+- [GSR Signal Detector](https://metalmetric.com/tools/gsr-signal-detector) — zones: <50 extreme buy gold, 50-65 buy gold, 65-80 neutral, 80-90 buy silver, 90+ extreme buy silver
+- [Shanghai Gold Premium](https://metalmetric.com/tools/shanghai-gold-premium) — live SGE vs COMEX gold spread
+- [Shanghai Silver Premium](https://metalmetric.com/tools/shanghai-silver-premium) — live SGE vs COMEX silver spread including China's 13% VAT baseline
+
+---
+
+## Calculators
+- [Gold Melt Value Calculator](https://metalmetric.com/melt/gold-melt-value) — melt value of any gold item by weight and purity at today's spot
+- [Scrap Gold Calculator](https://metalmetric.com/melt/scrap-gold-calculator) — scrap gold value by karat
+- [Junk Silver Calculator](https://metalmetric.com/melt/junk-silver-calculator) — melt value of pre-1965 US silver coins
+
+---
+
+## Key Pages
+- [Portfolio Vault](https://metalmetric.com/vault) — main portfolio tracking application
+- [Melt Calculator Hub](https://metalmetric.com/melt) — all melt value tools
+- [Dealer Directory](https://metalmetric.com/dealers) — find precious metals dealers
+- [Dealer Comparison](https://metalmetric.com/dealers/compare) — compare dealer premiums
+- [Pro Plan](https://metalmetric.com/pro) — features and pricing
+- [Elite Plan](https://metalmetric.com/elite) — features and pricing
+- [Privacy Policy](https://metalmetric.com/privacy) — data handling commitments
+- [Terms of Use](https://metalmetric.com/terms) — acceptable use policy
+
+---
+
+## Data & Technical
+Spot price data is sourced from live market feeds and updated every 60 seconds. GSR historical data is stored in PostgreSQL and updated hourly. Shanghai premium data is sourced from SGE published rates. Built on Vercel, Neon PostgreSQL, Clerk authentication, and Stripe. All connections SSL-encrypted. No advertising. No data selling.
+
+## Contact
+- Support: support@metalmetric.com
+- Partner and dealer inquiries: partner@metalmetric.com
+- Website: https://metalmetric.com
