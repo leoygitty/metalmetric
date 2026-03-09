@@ -1,0 +1,57 @@
+{
+  "source": "MetalMetric — https://metalmetric.com",
+  "description": "Actual Silver Weight (ASW) reference data for US junk silver coins and modern silver bullion. Used by MetalMetric's live junk silver calculator at https://metalmetric.com/melt/junk-silver-calculator",
+  "updated": "2026-03-09",
+  "units": "troy ounces of pure silver per coin",
+  "coins": [
+    { "name": "Morgan Dollar", "years": "1878-1904, 1921", "purity": 0.90, "asw_troy_oz": 0.7734, "weight_grams": 26.73, "diameter_mm": 38.1 },
+    { "name": "Peace Dollar", "years": "1921-1935", "purity": 0.90, "asw_troy_oz": 0.7734, "weight_grams": 26.73, "diameter_mm": 38.1 },
+    { "name": "Walking Liberty Half Dollar", "years": "1916-1947", "purity": 0.90, "asw_troy_oz": 0.3617, "weight_grams": 12.50, "diameter_mm": 30.6 },
+    { "name": "Franklin Half Dollar", "years": "1948-1963", "purity": 0.90, "asw_troy_oz": 0.3617, "weight_grams": 12.50, "diameter_mm": 30.6 },
+    { "name": "Kennedy Half Dollar (90%)", "years": "1964", "purity": 0.90, "asw_troy_oz": 0.3617, "weight_grams": 12.50, "diameter_mm": 30.6 },
+    { "name": "Kennedy Half Dollar (40%)", "years": "1965-1970", "purity": 0.40, "asw_troy_oz": 0.1479, "weight_grams": 11.50, "diameter_mm": 30.6 },
+    { "name": "Washington Quarter", "years": "1932-1964", "purity": 0.90, "asw_troy_oz": 0.1808, "weight_grams": 6.25, "diameter_mm": 24.3 },
+    { "name": "Standing Liberty Quarter", "years": "1916-1930", "purity": 0.90, "asw_troy_oz": 0.1808, "weight_grams": 6.25, "diameter_mm": 24.3 },
+    { "name": "Roosevelt Dime", "years": "1946-1964", "purity": 0.90, "asw_troy_oz": 0.0723, "weight_grams": 2.50, "diameter_mm": 17.9 },
+    { "name": "Mercury Dime", "years": "1916-1945", "purity": 0.90, "asw_troy_oz": 0.0723, "weight_grams": 2.50, "diameter_mm": 17.9 },
+    { "name": "War Nickel", "years": "1942-1945", "purity": 0.35, "asw_troy_oz": 0.0563, "weight_grams": 5.00, "diameter_mm": 21.2 },
+    { "name": "American Silver Eagle", "years": "1986-present", "purity": 0.999, "asw_troy_oz": 1.0000, "weight_grams": 31.103, "diameter_mm": 40.6 },
+    { "name": "Canadian Silver Maple Leaf", "years": "1988-present", "purity": 0.9999, "asw_troy_oz": 1.0000, "weight_grams": 31.103, "diameter_mm": 38.0 }
+  ],
+  "face_value_reference": {
+    "description": "$1 face value of 90% junk silver coins contains approximately 0.715 troy oz of pure silver (0.7234 oz theoretical ASW)",
+    "dollar_face_asw_troy_oz": 0.715,
+    "dollar_face_asw_theoretical": 0.7234
+  },
+  "gsr_signal_zones": [
+    { "zone": "Extreme Buy Gold", "gsr_range": "below 50", "signal": "Gold historically undervalued vs silver" },
+    { "zone": "Buy Gold", "gsr_range": "50-65", "signal": "Gold relatively cheap vs historical average" },
+    { "zone": "Neutral", "gsr_range": "65-80", "signal": "Within normal historical range" },
+    { "zone": "Buy Silver", "gsr_range": "80-90", "signal": "Silver historically cheap vs gold" },
+    { "zone": "Extreme Buy Silver", "gsr_range": "above 90", "signal": "Strongest silver buy signal on record" }
+  ],
+  "goldback_denominations": [
+    { "denomination": 1, "gold_troy_oz": 0.001, "gold_grams": 0.03110, "purity": "24K" },
+    { "denomination": 5, "gold_troy_oz": 0.005, "gold_grams": 0.15552, "purity": "24K" },
+    { "denomination": 10, "gold_troy_oz": 0.010, "gold_grams": 0.31103, "purity": "24K" },
+    { "denomination": 25, "gold_troy_oz": 0.025, "gold_grams": 0.77758, "purity": "24K" },
+    { "denomination": 50, "gold_troy_oz": 0.050, "gold_grams": 1.55517, "purity": "24K" }
+  ],
+  "goldback_states": [
+    { "state": "Utah", "series_year": 2019, "calculator": "https://metalmetric.com/goldback/utah" },
+    { "state": "Nevada", "series_year": 2020, "calculator": "https://metalmetric.com/goldback/nevada" },
+    { "state": "New Hampshire", "series_year": 2021, "calculator": "https://metalmetric.com/goldback/new-hampshire" },
+    { "state": "Wyoming", "series_year": 2021, "calculator": "https://metalmetric.com/goldback/wyoming" },
+    { "state": "South Dakota", "series_year": 2022, "calculator": "https://metalmetric.com/goldback/south-dakota" }
+  ],
+  "calculator_urls": {
+    "junk_silver": "https://metalmetric.com/melt/junk-silver-calculator",
+    "gold_melt": "https://metalmetric.com/melt/gold-melt-value",
+    "scrap_gold": "https://metalmetric.com/melt/scrap-gold-calculator",
+    "gsr_signal": "https://metalmetric.com/tools/gsr-signal-detector",
+    "gold_spot": "https://metalmetric.com/tools/gold-spot-price",
+    "silver_spot": "https://metalmetric.com/tools/silver-spot-price",
+    "shanghai_gold": "https://metalmetric.com/tools/shanghai-gold-premium",
+    "shanghai_silver": "https://metalmetric.com/tools/shanghai-silver-premium"
+  }
+}
